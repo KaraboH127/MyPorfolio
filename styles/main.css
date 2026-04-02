@@ -368,7 +368,7 @@ h4 {
     width: min(360px, 80vw);
     aspect-ratio: 3 / 4;
     border-radius: 28px;
-    background-image: url("assets/Me.jpeg");
+    background-image: url("../assets/Me.jpeg");
     background-size: cover;
     background-position: center;
     border: 3px solid rgba(255, 255, 255, 0.8);
