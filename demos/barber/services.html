@@ -6,18 +6,8 @@
     <title>The Fade Room - Services</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../demo.css">
-    <style>
-        :root {
-            --primary: #0f766e;
-            --accent: #111827;
-            --bg: #f7f6f3;
-            --surface-alt: #efeee9;
-            --font-heading: 'Oswald', sans-serif;
-            --font-body: 'Inter', sans-serif;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="demo-banner">
@@ -45,64 +35,104 @@
     <section class="section" id="services">
         <div class="container">
             <div class="section-header">
-                <h2>Signature Services</h2>
-                <p>Every service includes a fresh finish and premium aftercare.</p>
+                <h2>Full Service Menu</h2>
+                <p>Every service includes aftercare, styling tips, and a clean finish.</p>
             </div>
-            <div class="cards">
-                <div class="card">
-                    <h3>Classic Cut</h3>
-                    <p>Tailored shape, clean neckline, and styling tips.</p>
+            <div class="service-list">
+                <div class="service-item">
+                    <div>
+                        <h3>Classic Cut</h3>
+                        <p>Tailored shape and neckline cleanup.</p>
+                    </div>
+                    <div class="price-tag">R160</div>
                 </div>
-                <div class="card">
-                    <h3>Skin Fade</h3>
-                    <p>Precision fade with razor finish and detail work.</p>
+                <div class="service-item">
+                    <div>
+                        <h3>Skin Fade</h3>
+                        <p>Seamless fade, razor finish, and line-up.</p>
+                    </div>
+                    <div class="price-tag">R200</div>
                 </div>
-                <div class="card">
-                    <h3>Beard Sculpt</h3>
-                    <p>Trim, shape, and hot towel treatment.</p>
+                <div class="service-item">
+                    <div>
+                        <h3>Beard Sculpt</h3>
+                        <p>Hot towel, shaping, and conditioning.</p>
+                    </div>
+                    <div class="price-tag">R130</div>
+                </div>
+                <div class="service-item">
+                    <div>
+                        <h3>Cut + Beard Combo</h3>
+                        <p>Full refresh with detail work.</p>
+                    </div>
+                    <div class="price-tag">R280</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section" id="pricing">
+    <section class="section section-muted">
         <div class="container">
             <div class="section-header">
-                <h2>Pricing</h2>
-                <p>Simple, transparent pricing. (Fictional demo rates.)</p>
+                <h2>Add-on Services</h2>
+                <p>Level up the appointment with targeted upgrades.</p>
             </div>
-            <div class="pricing-grid">
-                <div class="price-card">
-                    <h4>Fresh Fade</h4>
-                    <div class="price">R180</div>
-                    <div class="price-note">45 minutes</div>
-                    <div class="list">
-                        <span>Consultation</span>
-                        <span>Fade & line-up</span>
-                        <span>Styling finish</span>
-                    </div>
+            <div class="chip-list">
+                <span class="chip">Hair Wash</span>
+                <span class="chip">Scalp Massage</span>
+                <span class="chip">Edge Enhancement</span>
+                <span class="chip">Eyebrow Shape</span>
+                <span class="chip">Beard Color</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container split">
+            <div>
+                <div class="section-header">
+                    <h2>Maintenance Plans</h2>
+                    <p>Stay fresh with recurring appointments and priority booking.</p>
                 </div>
-                <div class="price-card">
-                    <h4>Cut + Beard</h4>
-                    <div class="price">R250</div>
-                    <div class="price-note">60 minutes</div>
-                    <div class="list">
-                        <span>Haircut</span>
-                        <span>Beard trim</span>
-                        <span>Hot towel</span>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>Every 2 Weeks</h3>
+                        <p>Perfect for clean fades and line-ups.</p>
                     </div>
-                </div>
-                <div class="price-card">
-                    <h4>VIP Grooming</h4>
-                    <div class="price">R320</div>
-                    <div class="price-note">75 minutes</div>
-                    <div class="list">
-                        <span>Cut & fade</span>
-                        <span>Beard sculpt</span>
-                        <span>Hair wash</span>
+                    <div class="card">
+                        <h3>Monthly Refresh</h3>
+                        <p>Stay sharp with consistent trims.</p>
                     </div>
                 </div>
             </div>
+            <div class="media-card">
+                <div class="media bg-12"></div>
+                <div class="media-content">
+                    <h3>Studio ready</h3>
+                    <p>Appointments are timed to give every client full attention.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-muted">
+        <div class="container">
+            <div class="section-header">
+                <h2>FAQ</h2>
+                <p>Quick answers to common booking questions.</p>
+            </div>
+            <details class="faq-item">
+                <summary>Do you take walk-ins?</summary>
+                <p>Yes, subject to availability. Book ahead for priority slots.</p>
+            </details>
+            <details class="faq-item">
+                <summary>How long does a fade take?</summary>
+                <p>Most fades take 40-50 minutes depending on style and detail.</p>
+            </details>
+            <details class="faq-item">
+                <summary>Do you offer beard services?</summary>
+                <p>Yes. Beard trims, shaping, and hot towel treatments are available.</p>
+            </details>
         </div>
     </section>
 
@@ -123,6 +153,9 @@
         <p><a href="../../index.html">Back to portfolio</a></p>
     </footer>
 
-    <script src="../demo.js"></script>
+    <script src="demo.js"></script>
 </body>
 </html>
+
+
+

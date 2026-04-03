@@ -6,18 +6,8 @@
     <title>BrightPath Consulting - Contact</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../demo.css">
-    <style>
-        :root {
-            --primary: #2563eb;
-            --accent: #0f766e;
-            --bg: #f5f7fb;
-            --surface-alt: #eef2f7;
-            --font-heading: 'Merriweather', serif;
-            --font-body: 'Source Sans 3', sans-serif;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="demo-banner">
@@ -43,23 +33,63 @@
     </nav>
 
     <section class="section" id="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2>Contact</h2>
-                <p>Reach out to schedule a consultation. (Fictional contact details.)</p>
-            </div>
-            <div class="cards">
-                <div class="card">
-                    <h3>Office</h3>
-                    <p>88 Harbour Road, Suite 14</p>
+        <div class="container split">
+            <form class="form-card">
+                <div class="section-header">
+                    <h2>Book a Discovery Call</h2>
+                    <p>Tell us about your goals and we will map the next steps. (Demo form only.)</p>
                 </div>
-                <div class="card">
-                    <h3>Phone</h3>
-                    <p>+27 11 445 1220</p>
+                <div class="form-grid">
+                    <label>
+                        Name
+                        <input type="text" placeholder="Your name">
+                    </label>
+                    <label>
+                        Business Type
+                        <input type="text" placeholder="Retail, services, etc.">
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" placeholder="you@email.com">
+                    </label>
+                    <label>
+                        Team Size
+                        <input type="text" placeholder="1-5, 6-15, 16+">
+                    </label>
+                    <label class="form-full">
+                        What do you need help with?
+                        <textarea rows="4" placeholder="Operations, marketing, growth"></textarea>
+                    </label>
                 </div>
-                <div class="card">
-                    <h3>Email</h3>
-                    <p>hello@brightpath.demo</p>
+                <div class="form-actions">
+                    <button class="btn btn-primary" type="button">Request a Call</button>
+                </div>
+            </form>
+            <div>
+                <div class="section-header">
+                    <h2>Contact Details</h2>
+                    <p>We respond within 24 hours.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="card">
+                        <h3>Location</h3>
+                        <p>88 Market Lane, Suite 12</p>
+                    </div>
+                    <div class="card">
+                        <h3>Phone</h3>
+                        <p>+27 21 990 8844</p>
+                    </div>
+                    <div class="card">
+                        <h3>Email</h3>
+                        <p>hello@brightpath.demo</p>
+                    </div>
+                </div>
+                <div class="media-card mt-24">
+                    <div class="media bg-1"></div>
+                    <div class="media-content">
+                        <h3>Office Hours</h3>
+                        <p>Monday to Friday, 09:00 - 17:00.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -68,11 +98,11 @@
     <section class="cta">
         <div class="container">
             <div>
-                <h2>Let's talk strategy</h2>
-                <p>Send a message and we will confirm your call time.</p>
+                <h2>Ready to talk strategy?</h2>
+                <p>Schedule a call and we will outline a plan.</p>
             </div>
             <div>
-                <a class="btn btn-outline" href="mailto:hello@brightpath.demo">Email BrightPath</a>
+                <a class="btn btn-outline" href="mailto:hello@brightpath.demo">Email Us</a>
             </div>
         </div>
     </section>
@@ -82,6 +112,9 @@
         <p><a href="../../index.html">Back to portfolio</a></p>
     </footer>
 
-    <script src="../demo.js"></script>
+    <script src="demo.js"></script>
 </body>
 </html>
+
+
+

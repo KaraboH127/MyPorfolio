@@ -6,18 +6,8 @@
     <title>Savory Table Bistro - Menu</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../demo.css">
-    <style>
-        :root {
-            --primary: #b45309;
-            --accent: #7c2d12;
-            --bg: #fbf5f0;
-            --surface-alt: #f6ede6;
-            --font-heading: 'Playfair Display', serif;
-            --font-body: 'Manrope', sans-serif;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="demo-banner">
@@ -42,47 +32,101 @@
         </div>
     </nav>
 
-    <section class="section">
+    <section class="section" id="menu">
         <div class="container">
             <div class="section-header">
                 <h2>Menu Highlights</h2>
-                <p>Signature plates crafted with bold flavors and thoughtful presentation.</p>
+                <p>A rotating menu inspired by the freshest seasonal ingredients.</p>
             </div>
-            <div class="cards">
-                <div class="card">
-                    <h3>Charred Citrus Salmon</h3>
-                    <p>Served with herb quinoa, roasted fennel, and a honey-lime glaze.</p>
+            <div class="menu-columns">
+                <div>
+                    <h3 class="menu-heading">Starters</h3>
+                    <div class="menu-list">
+                        <div class="menu-item">
+                            <div>
+                                <h4>Whipped Ricotta</h4>
+                                <p>Olive oil, citrus zest, grilled sourdough.</p>
+                            </div>
+                            <div class="price-tag">R90</div>
+                        </div>
+                        <div class="menu-item">
+                            <div>
+                                <h4>Heirloom Beet Salad</h4>
+                                <p>Goat cheese, walnut crumble, balsamic.</p>
+                            </div>
+                            <div class="price-tag">R110</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="card">
-                    <h3>Short Rib Pappardelle</h3>
-                    <p>Slow-braised beef, truffle jus, and parmesan crisp.</p>
+                <div>
+                    <h3 class="menu-heading">Mains</h3>
+                    <div class="menu-list">
+                        <div class="menu-item">
+                            <div>
+                                <h4>Seared Duck Breast</h4>
+                                <p>Blood orange reduction, crispy potatoes.</p>
+                            </div>
+                            <div class="price-tag">R240</div>
+                        </div>
+                        <div class="menu-item">
+                            <div>
+                                <h4>Wild Mushroom Risotto</h4>
+                                <p>Parmesan, truffle oil, seasonal greens.</p>
+                            </div>
+                            <div class="price-tag">R210</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="card">
-                    <h3>Garden Harvest Bowl</h3>
-                    <p>Seasonal vegetables, toasted almonds, and lemon tahini.</p>
+            </div>
+            <div class="menu-columns mt-26">
+                <div>
+                    <h3 class="menu-heading">Desserts</h3>
+                    <div class="menu-list">
+                        <div class="menu-item">
+                            <div>
+                                <h4>Vanilla Bean Panna Cotta</h4>
+                                <p>Berry compote, almond crumble.</p>
+                            </div>
+                            <div class="price-tag">R95</div>
+                        </div>
+                        <div class="menu-item">
+                            <div>
+                                <h4>Dark Chocolate Torte</h4>
+                                <p>Sea salt, espresso cream.</p>
+                            </div>
+                            <div class="price-tag">R110</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="media-card">
+                    <div class="media bg-9"></div>
+                    <div class="media-content">
+                        <h3>Chef's tasting menu</h3>
+                        <p>Ask about the multi-course tasting experience.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section">
+    <section class="section section-muted">
         <div class="container">
             <div class="section-header">
-                <h2>Chef Specials</h2>
-                <p>Rotating dishes inspired by the freshest seasonal ingredients.</p>
+                <h2>Wine Pairings</h2>
+                <p>Sommelier-selected bottles that elevate every course.</p>
             </div>
-            <div class="cards">
+            <div class="grid-3">
                 <div class="card">
-                    <h3>Seared Duck Breast</h3>
-                    <p>Blood orange reduction, crispy potatoes, and seasonal greens.</p>
+                    <h3>White Flights</h3>
+                    <p>Crisp, floral, and citrus-forward pairings.</p>
                 </div>
                 <div class="card">
-                    <h3>Wild Mushroom Risotto</h3>
-                    <p>Creamy arborio rice finished with parmesan and truffle oil.</p>
+                    <h3>Red Flights</h3>
+                    <p>Bold, structured, and full-bodied selections.</p>
                 </div>
                 <div class="card">
-                    <h3>Vanilla Bean Panna Cotta</h3>
-                    <p>Berry compote, almond crumble, and citrus zest.</p>
+                    <h3>Dessert Wines</h3>
+                    <p>Sweet finishes matched to our desserts.</p>
                 </div>
             </div>
         </div>
@@ -105,6 +149,9 @@
         <p><a href="../../index.html">Back to portfolio</a></p>
     </footer>
 
-    <script src="../demo.js"></script>
+    <script src="demo.js"></script>
 </body>
 </html>
+
+
+

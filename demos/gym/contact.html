@@ -6,18 +6,8 @@
     <title>PulsePoint Fitness - Contact</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../demo.css">
-    <style>
-        :root {
-            --primary: #ef4444;
-            --accent: #111827;
-            --bg: #f4f6f8;
-            --surface-alt: #eef1f5;
-            --font-heading: 'Anton', sans-serif;
-            --font-body: 'Space Grotesk', sans-serif;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500;600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="demo-banner">
@@ -43,23 +33,67 @@
     </nav>
 
     <section class="section" id="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2>Contact & Trial Sessions</h2>
-                <p>Reach out to schedule a free trial. (Fictional contact details.)</p>
-            </div>
-            <div class="cards">
-                <div class="card">
-                    <h3>Location</h3>
-                    <p>102 King Street, Loft District</p>
+        <div class="container split">
+            <form class="form-card">
+                <div class="section-header">
+                    <h2>Book a Trial</h2>
+                    <p>Tell us what you want to focus on. (Demo form only.)</p>
                 </div>
-                <div class="card">
-                    <h3>Phone</h3>
-                    <p>+27 11 880 5520</p>
+                <div class="form-grid">
+                    <label>
+                        Name
+                        <input type="text" placeholder="Your name">
+                    </label>
+                    <label>
+                        Phone
+                        <input type="tel" placeholder="+27 00 000 0000">
+                    </label>
+                    <label>
+                        Goal
+                        <select>
+                            <option>Strength</option>
+                            <option>Conditioning</option>
+                            <option>Mobility</option>
+                        </select>
+                    </label>
+                    <label>
+                        Preferred Time
+                        <input type="text" placeholder="Morning / Evening">
+                    </label>
+                    <label class="form-full">
+                        Notes
+                        <textarea rows="4" placeholder="Tell us about your training"></textarea>
+                    </label>
                 </div>
-                <div class="card">
-                    <h3>Email</h3>
-                    <p>train@pulsepoint.demo</p>
+                <div class="form-actions">
+                    <button class="btn btn-primary" type="button">Request Trial</button>
+                </div>
+            </form>
+            <div>
+                <div class="section-header">
+                    <h2>Studio Details</h2>
+                    <p>We confirm trial bookings within 24 hours.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="card">
+                        <h3>Location</h3>
+                        <p>102 King Street, Loft District</p>
+                    </div>
+                    <div class="card">
+                        <h3>Phone</h3>
+                        <p>+27 11 880 5520</p>
+                    </div>
+                    <div class="card">
+                        <h3>Email</h3>
+                        <p>train@pulsepoint.demo</p>
+                    </div>
+                </div>
+                <div class="media-card mt-24">
+                    <div class="media bg-2"></div>
+                    <div class="media-content">
+                        <h3>Hours</h3>
+                        <p>Open 05:00 - 21:00 on weekdays.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -82,6 +116,10 @@
         <p><a href="../../index.html">Back to portfolio</a></p>
     </footer>
 
-    <script src="../demo.js"></script>
+    <script src="demo.js"></script>
 </body>
 </html>
+
+
+
+
