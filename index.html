@@ -1008,6 +1008,43 @@
       gap: 8px;
     }
     .footer-bottom span { color: var(--accent); }
+
+    /* ─── DISCLAIMER ─── */
+    .disclaimer {
+      background: var(--white);
+      padding: 60px 5%;
+      border-top: 1px solid var(--border);
+    }
+    .disclaimer-inner {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .disclaimer-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+    .disclaimer-label::before {
+      content: '';
+      display: block;
+      width: 22px; height: 1px;
+      background: var(--accent);
+    }
+    .disclaimer-content {
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--muted);
+    }
+    .disclaimer-content strong {
+      color: var(--ink);
+      font-weight: 600;
+    }
  
     /* ─── WHATSAPP FLOAT ─── */
     .wa-float {
@@ -1386,6 +1423,16 @@
       </div>
     </div>
     <p class="pricing-note hidden"><i class="fas fa-info-circle"></i> All packages include free hosting setup guidance and a 30-minute walkthrough call.</p>
+  </section>
+
+  <!-- DISCLAIMER -->
+  <section class="disclaimer">
+    <div class="disclaimer-inner hidden">
+      <p class="disclaimer-label">Disclaimer</p>
+      <div class="disclaimer-content">
+        <p><strong>Disclaimer:</strong> I improve your online presence and local visibility using best practices, but I <b>do not</b> guarantee top Google rankings, specific placement, or a fixed number of leads. Results vary based on competition, search algorithms, and ongoing business activity.</p>
+      </div>
+    </div>
   </section>
  
   <!-- FAQ -->
