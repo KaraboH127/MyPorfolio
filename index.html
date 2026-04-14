@@ -577,6 +577,7 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 24px;
+      align-items: start;
     }
     .project-card {
       background: var(--white);
@@ -650,6 +651,7 @@
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
       margin-top: 50px;
+      align-items: start;
     }
     .service-card {
       background: var(--cream);
@@ -1058,6 +1060,7 @@
       .projects-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
       .services-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
       .service-card { padding: 22px 16px; }
+      .project-img-wrap { height: 165px; }
       .projects-header { flex-direction: column; align-items: flex-start; gap: 8px; }
       .footer-top { grid-template-columns: 1fr; gap: 32px; }
       .footer-bottom { flex-direction: column; align-items: flex-start; }
@@ -1065,6 +1068,12 @@
       .btn-primary, .btn-secondary { width: 100%; justify-content: center; }
       .custom-web-note { padding: 13px 14px; border-radius: 14px; }
       .custom-web-note p { font-size: 0.94rem; }
+    }
+
+    @media (max-width: 520px) {
+      .projects-grid { grid-template-columns: 1fr; gap: 16px; }
+      .services-grid { grid-template-columns: 1fr; gap: 16px; }
+      .project-img-wrap { height: 210px; }
     }
   </style>
 </head>
